@@ -26,4 +26,35 @@
 
 ## Na Raiz do Projeto
 
-- 
+- É necessário ter:
+- o .gitignore: É Utilizado para Informar ao Git Quais Extensões ou Pastas que Precisam ser Ignoradas
+- license: É Informado Qual é a Licença do Projeto (Obrigatório Quando o Projeto é Público)
+- contribuiting: É Informado Quem São os Autores e Como Contribuir
+- changelog: É Utilizado para Informar o Histórico de Versões do Projeto
+
+## Gerenciar Branchs
+- Um Projeto pode ter Algumas dessas Branchs Abaixo:
+
+- main (ou master):
+  - Versão Estável do Projeto
+  - Normalmente a main é Atualizada no Final de Cada Sprint, Recebe Tudo que foi Realizada na homolog (Foi Testado e Aprovado)
+
+- homolog (ou tests):
+  - Versão Posterior a de Desenvolvimento, ou Seja, é a de Testes.
+  - Normalmente ela Antecipa a main
+  - Normalmente a homolog é Atualizada no Final de Cada Sprint, Recebendo Todas as Modificações Criadas na develop
+
+- develop:
+  - Versão em Desenvolvimento, Normalmente é Utilizado por Desenvolvedores do Projeto.
+  - Centralizadora da Modificações Realizadas pelos Devs.
+  - Normalmente a develop é Considerada mais Atualizada comparada a main e a homolog
+
+- Branchs Relacionadas ao Card do Kanban (branch-de-trabalho): 
+  - Por exemplo: [sufixo-atomic]/[nome-card]
+  - Cada Card do Kanban Vai Ter uma Branch
+  - Cada Dev pega uma ou N Cards do Kanban
+  - Cada Branch é Baseada da develop
+  - No Final ela é Mesclada a develop
+
+- Flow das Branchs
+  - branch-de-trabalho -> develop -> homolog -> main
