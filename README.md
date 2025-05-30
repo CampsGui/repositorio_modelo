@@ -17,3 +17,13 @@
 - /public -> A Pasta Indicada para Colocar o Front-End ou Qualquer Arquivo que Precisa Ficar à Nível Público. A Nível de API, Teriamos os ENDPOINTS (Rotas de Acesso)
 - /config -> (ou scripts) Arquivos de Configuração ou Instalação de Bibliotecas do Projeto (isso também pode ficar na raiz do projeto - config é uma pasta opcional)
 - /docs -> A Pasta Indicada para Guardar Imagens ou Docs Relacionados ao Projeto. Por exemplo: Diagramas, Fluxogramas, Mapas Mentais, Canvas e etc.
+
+## Utilizar Boas Práticas em Commits
+É Necessário Realizar os Dois:
+
+- Commit Atômico: Realizar Commits Pequenos -> A Unidade de Trabalho
+- Commit Semântico: É Informar com Sufixo e em Poucas Palavras o que Foi Realizado nessa Unidade de Trabalho
+
+## Na Raiz do Projeto
+
+- 
